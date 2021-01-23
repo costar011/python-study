@@ -16,3 +16,14 @@ print("naver", "kakao", "samsung", sep=";")
 
 # naver/kakao/sk/samsung
 print("naver", "kakao", "samsung", sep="/")
+
+# print 줄바꿈
+
+# 다음 코드를 수정하여 줄바꿈이 없이 출력하세요. (힌트: end='') print 함수는 두 번 사용한다.
+# 세미콜론 (;)은 한줄에 여러 개의 명령을 작성하기 위해 사용한다.
+print("first")
+print("second")
+
+# 정답
+print("first", end="")
+print("second")
