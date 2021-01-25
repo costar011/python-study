@@ -31,3 +31,8 @@ print("오늘은", "일요일")
 # naver;kakao;sk;samsung
 # print 함수의 sep 인자로 ";"를 입력하면 출력되는 값들 사이에 한 칸의 공백대신 세미콜론이 출력
 print("naver", "kakao", "samsung", sep=";")
+
+# 008 print 기초
+# print() 함수를 사용하여 다음과 같이 출력
+# naver/kakao/sk/samsung
+print("naver", "kakao", "samsung", sep="/")
