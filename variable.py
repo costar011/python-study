@@ -36,3 +36,9 @@ print("naver", "kakao", "samsung", sep=";")
 # print() 함수를 사용하여 다음과 같이 출력
 # naver/kakao/sk/samsung
 print("naver", "kakao", "samsung", sep="/")
+
+# 009 print 줄바꿈
+# 다음 코드를 수정하여 줄바꿈이 없이 출력 (힌트: end='') print 함수는 두 번 사용 세미콜론 (;)은 한줄에 여러 개의 명령을 작성하기 위해 사용
+# print("first");print("second")
+print("first", end="")
+print("second")
