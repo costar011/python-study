@@ -66,3 +66,18 @@ PER = 15.79
 print(시가총액, type(시가총액))
 print(현재가, type(현재가))
 print(PER, type(PER))
+
+# 013 문자열 출력
+# 변수 s와 t에는 각각 문자열이 바인딩 되어있다.
+# s = "hello"
+# t = "python"
+# 두 변수를 이용하여 아래와 같이 출력
+# 실행 예: hello! python
+s = "hello"
+t = "python"
+print(s+"!", t)
+
+# 014 파이썬을 이용한 값 계산
+# 아래 코드의 실행 결과를 예상해보기
+2 + 2 * 3
+8
