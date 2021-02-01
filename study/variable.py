@@ -15,7 +15,7 @@ print('신씨가 소리질렀다. "도둑이야"')
 
 # 004
 # 화면에 "C:\Windows"를 출력
-# print("C:\Windows")
+print("C:\Windows")
 
 # 005 print 탭과 줄바꿈
 # 다음 코드를 실행해보고 \t와 \n의 역할을 설명
@@ -81,3 +81,28 @@ print(s+"!", t)
 # 아래 코드의 실행 결과를 예상해보기
 2 + 2 * 3
 8
+
+# 015 type 함수
+# type() 함수는 데이터 타입을 판별 변수 a에는 128 숫자가 바인딩돼 있어 type 함수가 int (정수)형임
+a = 128
+print(type(a))
+# < class 'int' >
+
+# 아래 변수에 바인딩된 값의 타입을 판별
+a = "132"
+print(type(a))
+
+# 016 문자열을 정수로 변환
+# 문자열 '720'를 정수형으로 변환
+# num_str = "720"
+num_str = "720"  # 형변환
+num_int = int(num_str)
+print(num_int+1, type(num_int))
+
+# 017 정수를 문자열 100으로 변환
+# 정수 100을 문자열 '100'으로 변환
+# num = 100
+num = 100
+
+result = str(num)
+print(result, type(result))
