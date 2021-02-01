@@ -106,3 +106,9 @@ num = 100
 
 result = str(num)
 print(result, type(result))
+
+# 018 문자열을 실수로 변환
+# 문자열 "15.79"를 실수(float) 타입으로 변환
+data = "15.79"
+data(float(data))
+print(data, type(data))
