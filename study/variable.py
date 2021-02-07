@@ -112,3 +112,11 @@ print(result, type(result))
 data = "15.79"
 data(float(data))
 print(data, type(data))
+
+# 019 문자열을 정수로 변환
+# year라는 변수가 문자열 타입의 연도를 바인딩하고 있다. 정수로 변환한 후 최근 3년의 연도를 화면에 출력
+# year = "2021"
+year = "2021"
+print(int(year)-3)  # 2018
+print(int(year)-2)  # 2019
+print(int(year)-1)  # 2020
