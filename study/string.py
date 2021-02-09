@@ -45,3 +45,10 @@ print(string[::-1])
 phone_number = "010-1111-2222"
 phone_number1 = phone_number.replace("-", " ")
 print(phone_number1)
+
+# 026 문자열 다루기
+# 25번 문제의 전화번호를 아래와 같이 모두 붙여 출력
+# 실행 예 01011112222
+phone_number = "010-1111-2222"
+phone_number1 = phone_number.replace('-', '')
+print(phone_number1)
