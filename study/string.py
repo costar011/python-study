@@ -29,3 +29,19 @@ print(license_plate[-4:])
 # 슬라이싱할 때 시작인덱스:끝인덱스:오프셋을 지정할 수 있다.
 string = "홀짝홀짝홀짝"
 print(string[::2])
+
+# 024 문자열 슬라이싱
+# 문자열을 거꾸로 뒤집어 출력
+# string = "PYTHON"
+# 실행 예: NOHTYP
+string = "PYTHON"
+print(string[::-1])
+
+# 025 문자열 치환
+# 아래의 전화번호에서 하이푼 ('-')을 제거하고 출력
+# phone_number = "010-1111-2222"
+# 실행 예 010 1111 2222
+# 파이썬 문자열에서 replace 메서드를 사용하면 문자열을 일부를 치환할 수 있다 문자열은 수정할 수 없는 자료형이므로 기존 문자열은 그대로 두고 치환된 새로운 문자열이 리턴 된다
+phone_number = "010-1111-2222"
+phone_number1 = phone_number.replace("-", " ")
+print(phone_number1)
