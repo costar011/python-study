@@ -52,3 +52,11 @@ print(phone_number1)
 phone_number = "010-1111-2222"
 phone_number1 = phone_number.replace('-', '')
 print(phone_number1)
+
+# 027 문자열 다루기
+# url 에 저장된 웹 페이지 주소에서 도메인을 출력
+# https://www.naver.com
+# 문자열로 표현된 url에서 .을 기준으로 분리. 분리된 url 중 마지막을 인덱싱하면 도메인만 출력할 수 있다
+url = "https://naver.com"
+url_split = url.split('.')
+print(url_split[-1])
