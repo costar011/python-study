@@ -60,3 +60,24 @@ print(phone_number1)
 url = "https://naver.com"
 url_split = url.split('.')
 print(url_split[-1])
+
+# 028 문자열은 immutable
+# 아래 코드의 실행 결과를 예상
+# lang = 'python'
+# lang[0] = 'P'
+# print(lang)
+# 문자열은 수정할 수 없다. 문자열이 할당(assignment) 메서드를 지원하지 않음을 알 수 있다.
+# TypeError                                 Traceback (most recent call last)
+# <ipython-input-22-a0f3d05b669c> in <module>
+#      1 lang = "python"
+# ----> 2 lang[0]= "P"
+#      3 print(lang)
+# TypeError: 'str' object does not support item assignment
+
+# 029 replace 메소드
+# 아래 문자열에서 소문자 'a'를 대문자 'A'로 변경
+# string = 'abcdfe2a354a32a'
+# 실행 예: Abcdfe2A354A32A
+string = 'abcdfe2a354a32a'
+string = string.replace('a', 'A')
+print(string)
