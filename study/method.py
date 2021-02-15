@@ -27,3 +27,16 @@ print(ticker)
 # 문자열 'hello'가 있을 때 이를 'Hello'로 변경
 a = "hello"
 a = a.capitalize()
+
+# 044 endswith 메소드
+# 파일 이름이 문자열로 저장되어 있을 때 endswith 메소드를 사용해서 파일 이름이 'xlsx'로 끝나는지 확인
+# file_name = "보고서.xlsx"
+file_name = "보고서.xlsx"
+file_name.endswith("xlsx")
+
+
+# 045 startswith 메소드
+# 파일 이름이 문자열로 저장되어 있을 때 startswith 메서드를 사용해서 파일 이름이 '2020'로 시작하는지 확인
+# file_name = "2020_보고서.xlsx"
+file_name = "2020_보고서.xlsx"
+file_name.startswith("2020")
