@@ -40,3 +40,17 @@ file_name.endswith("xlsx")
 # file_name = "2020_보고서.xlsx"
 file_name = "2020_보고서.xlsx"
 file_name.startswith("2020")
+
+# 046 split 메소드
+# 같은 문자열이 있을 때 공백을 기준으로 문자열을 나눠라
+# a = "hello world"
+# 문자열의 split() 메서드를 사용하면 문자열에서 공백을 기준으로 분리
+a = "hello world"
+a.split()
+
+# 047 split 메소드
+# 다음과 같이 문자열이 있을 때 btc와 krw로 나눠라
+# ticker = "btc_krw"
+# 문자열에서 split() 메서드는 문자열을 분리할 때 사용 이때 어떤 값을 넘겨주면 그 값을 기준으로 문자열을 분리
+ticker = "btc_krw"
+ticker.split("_")
