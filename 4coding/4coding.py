@@ -1,3 +1,6 @@
+from bs4 import BeautifulSoup
+import requests
+
 print("----Ex----")
 
 first_var = "Hello world"
@@ -60,3 +63,18 @@ def send_KaKao_msg2():
 
 
 send_KaKao_msg2()
+
+print("-----웹툰-----")
+
+URL = "https://comic.naver.com/webtoon/weekday.nhn"
+
+result = requests.get(URL)
+
+html_result = BeautifulSoup(result.text, "html.parser")
+
+contents = html_result.find("div", {"class": "webtoon"})
+
+thumb_list = contents.find_all("div", {"class": "thumb"})
+
+for thumb in thumb_list:
+    print(thumb.img["alt"])
