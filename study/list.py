@@ -21,3 +21,20 @@ print(movie_rank)
 movie_rank = ['닥터 스트레인지', '스플릿', '럭키', '배트맨']
 movie_rank.insert(1, "슈퍼맨")
 print(movie_rank)
+
+# 053
+# movie_rank 리스트에서 '럭키'를 삭제
+# movie_rank = ['닥터 스트레인지', '슈퍼맨', '스플릿', '럭키', '배트맨']
+movie_rank = ['닥터 스트레인지', '슈퍼맨', '스플릿', '럭키', '배트맨']
+del movie_rank[3]
+print(movie_rank)
+
+# 054
+# movie_rank 리스트에서 '스플릿' 과 '배트맨'을 를 삭제
+# movie_rank = ['닥터 스트레인지', '슈퍼맨', '스플릿', '배트맨']
+# del을 이용하여 리스트에서 원소를 삭제할 수 있습니다. 리스트에서 어떤 값을 삭제하면 남은 값들은 새로 인덱싱 된다.
+# 따라서 여러 값을 삭제할 때는 어떤 값이 먼저 삭제된 후 남은 원소들에 대해서 순서를 새로 고려한 후 삭제해야 한다.
+movie_rank = ['닥터 스트레인지', '슈퍼맨', '스플릿', '배트맨']
+del movie_rank[2]
+del movie_rank[2]
+print(movie_rank)
