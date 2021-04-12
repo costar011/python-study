@@ -40,7 +40,7 @@ del movie_rank[2]
 print(movie_rank)
 
 # 055
-# lang1과 lang2 리스트가 있을 때 lang1과 lang2의 원소를 모두 갖고 있는 langs 리스트를 만ㄷ는ㄴ다.
+# lang1과 lang2 리스트가 있을 때 lang1과 lang2의 원소를 모두 갖고 있는 langs 리스트를 만든다.
 # >> lang1 = ["C", "C++", "JAVA"]
 # >> lang2 = ["Python", "Go", "C#"]
 # 실행 예: langs ['C', 'C++', 'JAVA', 'Python', 'Go', 'C#']
@@ -59,3 +59,25 @@ print(langs)
 nums = [1, 2, 3, 4, 5, 6, 7]
 print("max: ", max(nums))
 print("min: ", min(nums))
+
+# 057
+# 다음 리스트의 합을 출력
+# nums = [1, 2, 3, 4, 5]
+# 실행 예: 15
+nums = [1, 2, 3, 4, 5]
+print(sum(nums))
+
+# 058
+# 다음 리스트에 저장된 데이터의 개수를 화면에 구하기.
+# cook = ["피자", "김밥", "만두", "양념치킨", "족발", "피자", "김치만두", "쫄면", "쏘세지", "라면", "팥빙수", "김치전"]
+cook = ["피자", "김밥", "만두", "양념치킨", "족발", "피자",
+        "김치만두", "쫄면", "쏘세지", "라면", "팥빙수", "김치전"]
+print(len(cook))
+
+# 059
+# 다음 리스트의 평균을 출력.
+# nums = [1, 2, 3, 4, 5]
+# 실행 예: 3.0
+nums = [1, 2, 3, 4, 5]
+average = sum(nums) / len(nums)
+print(average)
