@@ -38,3 +38,24 @@ movie_rank = ['닥터 스트레인지', '슈퍼맨', '스플릿', '배트맨']
 del movie_rank[2]
 del movie_rank[2]
 print(movie_rank)
+
+# 055
+# lang1과 lang2 리스트가 있을 때 lang1과 lang2의 원소를 모두 갖고 있는 langs 리스트를 만ㄷ는ㄴ다.
+# >> lang1 = ["C", "C++", "JAVA"]
+# >> lang2 = ["Python", "Go", "C#"]
+# 실행 예: langs ['C', 'C++', 'JAVA', 'Python', 'Go', 'C#']
+# 두 리스트를 더하면 새로운 리스트가 생성.
+lang1 = ["C", "C++", "JAVA"]
+lang2 = ["Python", "Go", "C#"]
+langs = lang1 + lang2
+print(langs)
+
+# 056
+# 다음 리스트에서 최댓값과 최솟값을 출력. (힌트: min(), max() 함수 사용)
+# nums = [1, 2, 3, 4, 5, 6, 7]
+# 실행 예
+# max:  7
+# min:  1
+nums = [1, 2, 3, 4, 5, 6, 7]
+print("max: ", max(nums))
+print("min: ", min(nums))
