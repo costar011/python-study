@@ -25,3 +25,21 @@ print(nums[1::2])
 # 실행 예: [5, 4, 3, 2, 1]
 nums = [1, 2, 3, 4, 5]
 print(nums[::-1])
+
+
+# 064
+# interest 리스트에는 아래의 데이터가 바인딩되어 있다.
+# interest = ['삼성전자', 'LG전자', 'Naver']
+# interest 리스트를 사용하여 아래와 같이 화면에 출력
+# 출력 예시: 삼성전자 Naver
+interest = ['삼성전자', 'LG전자', 'Naver']
+print(interest[0], interest[2])
+
+# 065
+# join 메소드
+# interest 리스트에는 아래의 데이터가 바인딩되어 있다.
+# interest = ['삼성전자', 'LG전자', 'Naver', '카카오', 'Apple']
+# interest 리스트를 사용하여 아래와 같이 화면에 출력
+# 출력 예시: 삼성전자 LG전자 Naver 카카오 Apple
+interest = ['삼성전자', 'LG전자', 'Naver', '카카오', 'Apple']
+print(" ".join(interest))
