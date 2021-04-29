@@ -71,7 +71,7 @@ print("\n".join(interest))
 
 # 068
 # 문자열 split 메소드
-# 회사 이름이 슬래시 ('/')로 구분되어 하나의 문자열로 저장
+# 회사 이름이 ('/')로 구분되어 하나의 문자열로 저장
 # string = "Apple/카카오/Naver"
 # 이를 interest 이름의 리스트로 분리 저장
 # 실행 예시 >> print(interest)
@@ -79,3 +79,14 @@ print("\n".join(interest))
 string = "Apple/카카오/Naver"
 interest = string.split("/")
 print(interest)
+
+# 069 리스트 정렬
+# 리스트에 있는 값을 오름차순으로 정렬
+# data = [2, 4, 3, 1, 5, 10, 9]
+data = [2, 4, 3, 1, 5, 10, 9]
+data.sort()
+print(data)
+
+data = [2, 4, 3, 1, 5, 10, 9]
+data2 = sorted(data)
+print(data2)
