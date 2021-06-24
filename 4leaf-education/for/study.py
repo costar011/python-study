@@ -17,3 +17,6 @@ for i in test_list:
 
 # ['one', 'two', 'three'] 리스트의 첫 번째 요소인 'one'이 먼저 i 변수에 대입된 후 print(i) 문장을 수행.
 # 다음 두 번째 요소 'two'가 i 변수에 대입된 후 print(i) 문장을 수행하고 리스트의 마지막 요소까지 반복.
+
+
+# 다양한 for문 사용
