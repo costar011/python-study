@@ -20,3 +20,10 @@ for i in test_list:
 
 
 # 다양한 for문 사용
+a = [(1, 2), (3, 4), (5, 6)]
+for (first, last) in a:
+    print(first+last)
+
+# 위 예는 a 리스트의 요솟값이 튜플이기 때문에 각각의 요소가 자동으로 (first, last) 변수에 대입.
+# 이 예는 사용한 변수값 대입 방법과 매우 비슷한 경우임.
+# >>> (first, last) = (1, 2)
