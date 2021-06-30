@@ -15,3 +15,9 @@ print("Mary's cosmetics")
 
 print('신씨가 소리질렀다. "도둑이야')
 # 표현하고 싶은 문자열에 큰따옴표가 포함되어 있습니다. 따라서 작은따옴표로 문자열을 만들어주면 됩니다.
+
+# 04
+# print() 함수를 사용하여 다음과 같이 출력하세요.
+# naver;kakao;sk;apple
+# print 함수의 sep 인자로 ";"를 입력하면 출력되는 값들 사이에 한 칸의 공백대신 세미콜론이 출력됩니다.
+print("naver", "kakao", "apple", sep=";")
