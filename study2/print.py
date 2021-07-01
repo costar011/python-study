@@ -21,3 +21,8 @@ print('신씨가 소리질렀다. "도둑이야')
 # naver;kakao;sk;apple
 # print 함수의 sep 인자로 ";"를 입력하면 출력되는 값들 사이에 한 칸의 공백대신 세미콜론이 출력됩니다.
 print("naver", "kakao", "apple", sep=";")
+
+# 05
+# print() 함수를 사용하여 다음과 같이 출력하세요.
+# naver/kakao/sk/apple
+print("naver", "kakao", "apple", sep="/")
