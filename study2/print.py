@@ -68,3 +68,17 @@ s = "hello"
 t = "python"
 # 두 변수를 이용하여 아래와 같이 출력해보세요.
 print(f"{s}! {t}")
+
+# 11
+# 문자열 '720'를 정수형으로 변환해보세요.
+# num_str = "720"
+num_str = "720"
+num_int = int(num_str)
+print(num_int+1, type(num_int))
+
+# 12
+# 정수 100을 문자열 '100'으로 변환해보세요.
+# num = 100
+num = 100
+num2 = str(num)
+print(num2, type(num2))
