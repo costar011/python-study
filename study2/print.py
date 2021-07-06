@@ -139,3 +139,18 @@ data = "0123456789"
 
 data1 = data[::2]
 print(data1[::-1])  # 거꾸로 출력 86420
+
+# 19
+# 문자열을 거꾸로 뒤집어 출력하세요.
+# string = "PYTHON"
+string = "PYTHON"
+pow(string[::-1])
+
+# 20
+# 아래의 전화번호에서 하이푼 ('-')을 제거하고 출력하세요.
+# phone_number = "010-1111-2222"
+# 파이썬 문자열에서 replace 메서드를 사용하면 문자열을 일부를 치환할 수 있습니다.
+# 문자열은 수정할 수 없는 자료형이므로 기존 문자열은 그대로 두고 치환된 새로운 문자열이 리턴됩니다.
+phone_number = "010-1111-2222"
+phone_number1 = phone_number.replace("-", " ")
+print(phone_number1)
