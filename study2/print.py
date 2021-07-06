@@ -144,7 +144,7 @@ print(data1[::-1])  # 거꾸로 출력 86420
 # 문자열을 거꾸로 뒤집어 출력하세요.
 # string = "PYTHON"
 string = "PYTHON"
-pow(string[::-1])
+print(string[::-1])
 
 # 20
 # 아래의 전화번호에서 하이푼 ('-')을 제거하고 출력하세요.
@@ -154,3 +154,20 @@ pow(string[::-1])
 phone_number = "010-1111-2222"
 phone_number1 = phone_number.replace("-", " ")
 print(phone_number1)
+
+# 21
+# 20번 문제의 전화번호를 아래와 같이 모두 붙여 출력하세요.
+# 실행 예 : 01011112222
+num = "010-1111-2222"
+result = num.replace("-", " ")
+print(result)
+
+# 22
+# url 에 저장된 웹 페이지 주소에서 도메인을 출력하세요.
+# url = "http://sharebook.kr"
+# 실행 예: kr
+# 문자열로 표현된 url에서 .을 기준으로 분리합니다.
+# 분리된 url 중 마지막을 인덱싱하면 도메인만 출력할 수 있습니다.
+url = "http://sharebook.kr"
+result = url.split(".")
+print(result[-1])
