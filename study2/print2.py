@@ -78,3 +78,19 @@ lang1 = ["C", "C++", "JAVA"]
 lang2 = ["Python", "Go", "C#"]
 langs = lang1 + lang2
 print(langs)
+
+# 12
+# 다음 리스트에서 최댓값과 최솟값을 출력하라. (힌트: min(), max() 함수 사용)
+# nums = [1, 2, 3, 4, 5, 6, 7]
+# max:  7
+# min:  1
+nums = [1, 2, 3, 4, 5, 6, 7]
+print("max: ", max(nums))
+print("min: ", min(nums))
+
+# 13
+# 다음 리스트의 합을 출력하라.
+# nums = [1, 2, 3, 4, 5]
+# 15
+nums = [1, 2, 3, 4, 5]
+print(sum(nums))
